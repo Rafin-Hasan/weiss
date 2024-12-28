@@ -1,0 +1,10 @@
+.navbtn {
+  @apply flex gap-4 px-4 bg-[#FF9900] text-white py-2 font-bold;
+}
+.navlinks {
+  @apply flex gap-10 font-bold;
+}
+.navlinks :hover {
+  color: orange;
+  text-decoration: underline;
+}

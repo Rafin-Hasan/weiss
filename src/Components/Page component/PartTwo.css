@@ -1,0 +1,27 @@
+.first_part {
+  @apply container;
+}
+.first_part h6 {
+  @apply font-poppins font-bold text-[24px] leading-[44px];
+}
+.first_part p {
+  @apply w-[520px] font-poppins font-medium text-[16px] text-[#929A9F] leading-7 mb-20;
+}
+.card-section {
+  @apply container flex justify-between mt-[140px];
+}
+.card {
+  @apply w-[312px];
+}
+.card h6 {
+  @apply py-6 font-poppins font-medium text-[20px] leading-[30px];
+}
+.card p {
+  @apply font-poppins font-medium text-[16px] leading-7 pb-6;
+}
+.pic_div {
+  @apply relative w-[312px] h-[333px] overflow-hidden shadow-xl;
+}
+.pic {
+  @apply w-full h-full object-cover transform transition-transform duration-300 hover:scale-110;
+}
