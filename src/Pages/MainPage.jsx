@@ -8,7 +8,7 @@ const MainPage = () => {
     <>
       <PartOne />
       <PartTwo />
-      {/* <PartThree /> */}
+      <PartThree />
       <div className="absolute top-[772px] z-[-1]">
         <img src="./images/bg.png" alt="bg" />
       </div>
