@@ -1,0 +1,18 @@
+.main_sec {
+  @apply container;
+}
+.main_div {
+  @apply mt-[80px] flex justify-between items-end;
+}
+.main_div h2 {
+  @apply text-[32px] font-bold mb-[16px];
+}
+.main_div p {
+  @apply text-[#929A9F] text-[16px] font-medium w-[488px];
+}
+/* .btn4 {
+  @apply;
+} */
+.second_main h3 {
+  @apply mt-[80px] mb-[32px] text-[#929A9F] text-[14px] font-bold uppercase;
+}
