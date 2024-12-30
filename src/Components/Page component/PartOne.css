@@ -17,8 +17,6 @@
 .btn {
   @apply font-poppins font-bold text-white mt-9 flex gap-4 bg-[#FF9900] py-2 px-4;
 }
-
-.img {
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+.imageContainer {
+  @apply overflow-hidden;
 }

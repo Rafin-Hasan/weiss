@@ -19,7 +19,7 @@ const PartOne = () => {
           </div>
 
           <div className="imageContainer">
-            <img className="img" src="./images/Image.png" alt="banner_img" />
+            <img className="pic" src="./images/Image.png" alt="banner_img" />
           </div>
         </div>
       </section>

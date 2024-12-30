@@ -1,3 +1,15 @@
 .main_div2 {
-  @apply container flex justify-between mt-[295px];
+  @apply container flex justify-between mt-[295px] pb-[116px] relative;
+}
+.first_p {
+  @apply pt-[101px] font-poppins font-bold text-[14px] text-[#929A9F] leading-5 tracking-[10%];
+}
+.head {
+  @apply font-poppins font-bold text-[32px] text-[#263640] mt-4 mb-6;
+}
+.second_p {
+  @apply w-[372px] font-poppins font-medium text-[16px] leading-7 text-[#929A9F] mb-8;
+}
+.image {
+  @apply absolute top-[-123px] right-20 shadow-2xl overflow-hidden;
 }
