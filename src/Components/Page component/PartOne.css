@@ -2,21 +2,24 @@
   @apply container flex justify-between items-center pt-24;
 }
 
-.textPart {
+.TextPart {
   @apply w-full md:w-[470px];
 }
 
-.textPart p {
+.TextPart p {
   @apply text-[#929A9F] leading-5 font-poppins text-[16px];
 }
 
-.textPart h3 {
+.TextPart h3 {
   @apply font-poppins font-bold text-[32px] leading-[45px] py-[15px];
 }
 
 .btn {
-  @apply font-poppins font-bold text-white mt-9 flex gap-4 bg-[#FF9900] py-2 px-4;
+  @apply font-poppins font-bold text-white mt-9 flex gap-4 bg-[#FF9900] hover:text-[#FF9900] hover:bg-white transition ease-linear py-2 px-4;
 }
+
 .imageContainer {
   @apply overflow-hidden;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }

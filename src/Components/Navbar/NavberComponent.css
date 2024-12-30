@@ -1,5 +1,6 @@
 .navbtn {
-  @apply flex gap-4 px-4 bg-[#FF9900] text-white py-2 font-bold;
+  @apply flex gap-4 px-4 bg-[#FF9900] text-white py-2 font-bold hover:bg-white hover:text-[#FF9900];
+  transition: all linear 0.2s;
 }
 .navlinks {
   @apply flex gap-10 font-bold;
@@ -7,4 +8,5 @@
 .navlinks :hover {
   color: orange;
   text-decoration: underline;
+  transition: all linear 0.2s;
 }

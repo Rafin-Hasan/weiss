@@ -4,7 +4,7 @@ import { MdNavigateNext } from "react-icons/md";
 const Button = ({ ButtonTitle }) => {
   return (
     <>
-      <button className="gap-2 px-4 h-[40px] bg-[#FF9900] text-[16px] font-bold text-white flex justify-center items-center ">
+      <button className="gap-2 px-4 h-[40px] bg-[#FF9900] text-[16px] font-bold text-white flex justify-center items-center hover:text-[#FF9900] hover:bg-white transition ease-linear">
         {ButtonTitle} <MdNavigateNext className="text-[24px] " />
       </button>
     </>

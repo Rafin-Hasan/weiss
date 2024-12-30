@@ -20,6 +20,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="line"> </div>
+        <div className="last">
+          <div>Impressum</div>
+          <div className="pt-1">
+            {" "}
+            <img src="./images/line.png" alt="line" />
+          </div>
+          <div>Datenschutz</div>
+        </div>
       </section>
     </>
   );
