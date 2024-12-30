@@ -11,7 +11,21 @@ import Footer from "../Components/Page component/Footer";
 
 const MainPage = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a 1-second animation duration
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        // Adjust breakpoint as needed (e.g., 1024 for larger desktops)
+        AOS.init({ duration: 1000, once: true }); // Initialize AOS only on larger screens, once: true to prevent repeating animations
+      } else {
+        AOS.refreshHard(); // Refresh AOS to remove animations on smaller screens
+      }
+    };
+
+    handleResize(); // Initial check on mount
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (

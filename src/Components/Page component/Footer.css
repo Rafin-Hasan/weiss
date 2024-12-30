@@ -2,17 +2,70 @@
   @apply container flex justify-between;
 }
 .textPart {
-  @apply w-[161px] mb-16;
+  @apply w-[161px] mb-10 md:mb-16;
 }
 .textPart h6 {
-  @apply mt-16 mb-[5px] font-poppins text-white font-bold text-[14px] tracking-[1.75px] uppercase;
+  @apply mt-16 mb-[5px] font-poppins text-white font-bold text-[12px] md:text-[14px] tracking-[1.75px] uppercase;
 }
 .textPart p {
-  @apply font-poppins font-normal text-[15px] text-white leading-[26px];
+  @apply font-poppins font-normal text-[12px] md:text-[15px] text-white leading-[26px];
 }
 .line {
-  @apply container w-[1345px] h-[1px] bg-[#fff];
+  @apply container w-full lg:w-[1345px] h-[1px] bg-[#fff];
 }
 .last {
-  @apply container py-10 font-poppins font-normal text-[14px] text-white flex gap-2;
+  @apply container py-10 font-poppins font-normal text-[11px] md:text-[14px] text-white flex gap-2;
+}
+
+/* Add these media queries if needed */
+@media (max-width: 768px) {
+  .sec_1 {
+    padding: 20px;
+  }
+
+  .textPart {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .sec_1 {
+    padding: 15px;
+  }
+}
+
+/* Add these media queries at the end of your Footer.css file */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    padding: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer-container {
+    padding: 15px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+  }
+
+  .footer-section p,
+  .footer-section a {
+    font-size: 14px;
+  }
 }
