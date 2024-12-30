@@ -1,3 +1,4 @@
-.img2 {
-  @apply absolute right-0;
+.backgroundPhoto{
+  background: url(images/Section.png);
+  background-repeat: no-repeat;
 }

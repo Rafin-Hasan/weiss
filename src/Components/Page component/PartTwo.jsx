@@ -17,7 +17,7 @@ const PartTwo = () => {
       </section>
 
       {/* ====== card section ====== */}
-      <section className="card-section">
+      <section className="card-section ">
         {/* ===== card 1 ====== */}
         <div className="card">
           <div className="pic_div">
