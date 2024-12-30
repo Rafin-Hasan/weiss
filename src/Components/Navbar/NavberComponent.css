@@ -1,12 +1,38 @@
+.logo {
+  @apply h-8 w-auto; /* Adjusted logo size */
+}
+
 .navbtn {
-  @apply flex gap-4 px-4 bg-[#FF9900] text-white py-2 font-bold hover:bg-white hover:text-[#FF9900];
+  @apply flex gap-2 px-3 bg-[#FF9900] text-white py-1 font-bold text-sm hover:bg-white hover:text-[#FF9900];
   transition: all linear 0.2s;
 }
+
 .navlinks {
-  @apply flex gap-10 font-bold;
+  @apply overflow-hidden md:flex gap-10 font-bold;
 }
-.navlinks :hover {
+
+.navlinks a {
+  @apply text-gray-700;
+}
+
+.navlinks a:hover {
   color: orange;
   text-decoration: underline;
   transition: all linear 0.2s;
+}
+
+.menu-icon {
+  @apply cursor-pointer text-gray-800;
+}
+
+.navlinks {
+  @apply absolute md:relative md:flex w-full bg-white shadow-md top-[100%] left-0 z-50 transition-all duration-300 ease-in-out;
+}
+
+.navlinks.hidden {
+  @apply max-h-0 opacity-0;
+}
+
+.navlinks.visible {
+  @apply max-h-[300px] opacity-100;
 }
