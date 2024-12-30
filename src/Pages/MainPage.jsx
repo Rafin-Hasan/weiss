@@ -4,6 +4,7 @@ import PartTwo from "../Components/Page component/PartTwo";
 import PartThree from "../Components/Page component/PartThree";
 import PartFour from "../Components/Page component/PartFour";
 import PartFive from "../Components/Page component/PartFive";
+import Footer from "../Components/Page component/Footer";
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <PartThree />
       <PartFour />
       <PartFive />
+      <Footer />
     </>
   );
 };

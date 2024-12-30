@@ -1,0 +1,12 @@
+.sec_1 {
+  @apply container flex justify-between;
+}
+.textPart {
+  @apply w-[161px] mb-16;
+}
+.textPart h6 {
+  @apply mt-16 mb-[5px] font-poppins text-white font-bold text-[14px] tracking-[1.75px] uppercase;
+}
+.textPart p {
+  @apply font-poppins font-normal text-[15px] text-white leading-[26px];
+}
